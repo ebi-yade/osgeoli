@@ -2,7 +2,7 @@ GO := go
 GO_BUILD := $(GO) build
 export GOBIN ?= $(shell pwd)/bin
 export GO111MODULE := on
-# export GOPRIVATE := github.com/ebi-yade/go-template
+# export GOPRIVATE := github.com/ebi-yade/osgeoli
 
 rec_wildcard = $(foreach d,$(wildcard $1*),$(call rec_wildcard,$d/,$2) $(filter $(subst *,%,$2),$d))
 SRC := $(call rec_wildcard,,*.go) go.mod go.sum

@@ -1,5 +1,5 @@
-# go-template
-__description_here__
+# osgeoli
+Osgeoli(옷걸이), which means a hanger, is hanged down on a hook from GitHub and then fetches the latest PR merge branch. 
 
 ## Follow upstream template changes
 

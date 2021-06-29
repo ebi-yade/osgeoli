@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const project = "go-template"
+const project = "osgeoli"
 
 func main() {
 	fmt.Fprintf(os.Stderr, "hello, %s!\n", project)

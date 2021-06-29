@@ -1,3 +1,3 @@
-module github.com/ebi-yade/go-template
+module github.com/ebi-yade/osgeoli
 
 go 1.16
